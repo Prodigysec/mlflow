@@ -10,7 +10,7 @@ nbsphinx==0.8.8
 # ipython 8.7.0 is an incompatible release
 ipython!=8.7.0
 keras
-torch>=1.11.0
+torch>=2.10.0
 torchvision>=0.12.0
 lightning>=1.8.1
 scrapy
@@ -33,3 +33,4 @@ ragas
 instructor
 litellm
 langchain-community>=0.3.0
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
